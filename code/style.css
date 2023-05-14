@@ -1,0 +1,475 @@
+/* font-family: "Commissioner", sans-serif; */
+/* 400,500,700 */
+/* Font size: 16px */
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #5c5470;
+  position: relative;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.header {
+  position: absolute;
+}
+
+.header-img {
+  background-image: url("/images/image-hero-desktop.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 23rem;
+  box-shadow: 1px 0 1px #2a2438;
+  z-index: -4;
+}
+
+.header-menu {
+  display: flex;
+}
+
+.logo {
+  position: absolute;
+  top: 12% !important;
+  left: 12%;
+}
+
+.navbar {
+  position: absolute;
+  top: 15% !important;
+  right: 7% !important;
+}
+
+.navbar-elem:visited,
+.navbar-elem:link {
+  position: relative;
+  margin-left: 1.3rem;
+  text-decoration: none;
+
+  font-family: "Commissioner", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #2a2438;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar-elem::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  left: 0 !important;
+  bottom: -7px;
+  background: #dbd8e3;
+  height: 2px;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar-elem:hover {
+  color: #dbd8e3;
+}
+
+.navbar-elem:hover::after {
+  width: 100%;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+  z-index: 0;
+}
+
+.containers {
+  width: 42.5%;
+  z-index: 10;
+  position: absolute;
+  top: 40% !important;
+  margin-top: 15rem;
+}
+
+.container--1 {
+  text-align: center;
+  padding-bottom: 2.2rem;
+  background-color: #dbd8e3;
+  box-shadow: 0px 0px 3px #2a24387e;
+  border-radius: 8px;
+}
+
+.mastercraft-logo {
+  position: absolute;
+  top: 59% !important;
+  left: 48% !important;
+  z-index: 100;
+}
+
+.container--1-header {
+  padding: 2rem 0;
+}
+
+.container--1-header h1 {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 700;
+  font-size: 1.65rem;
+  color: #2a2438;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.9rem;
+}
+
+.container--1-header p {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+  color: #352f44;
+}
+
+.container--1-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2.4rem;
+}
+
+.container--1-button1 {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  /* height: 3.6rem; */
+  border-radius: 60px;
+  display: grid;
+  place-items: center;
+  background-color: #5c5470;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn1 {
+  padding: 1.1rem 1.65rem;
+  text-decoration: none;
+  border-radius: 60px;
+  color: #dbd8e3;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn1:hover {
+  background-color: #e7eaf6;
+  color: #5c5470;
+}
+
+.container--1-button2 {
+  display: flex;
+  align-items: center;
+  height: 3.6rem;
+  /* background-color: #adb5bd;
+  color: #5c5470; */
+  border-radius: 60px;
+}
+
+.container--1-button2 a {
+  text-decoration: none;
+  font-family: "Commissioner", sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-indent: 2rem;
+  color: #dbd8e3;
+  background-color: #adb5bd;
+  color: #5c5470;
+  padding: 1rem 2rem;
+  border-radius: 60px;
+  position: relative;
+  z-index: 3;
+}
+.container--1-button2 svg {
+  position: absolute;
+  right: 27% !important;
+  z-index: 10;
+}
+
+.container--2 {
+  background-color: #dbd8e3;
+  padding: 2.2rem 0;
+  margin-top: 2rem;
+  box-shadow: 0px 0px 3px #2a24387e;
+  border-radius: 8px;
+}
+
+.container--2-text {
+  display: flex;
+  align-items: center;
+}
+
+.container--2-text-content {
+  font-family: "Commissioner", sans-serif;
+  padding: 0.4rem 0;
+}
+
+.container--2-text-content h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #352f44;
+  padding-bottom: 0.4rem;
+}
+
+.container--2-text-content p {
+  font-weight: 300;
+  font-size: 0.95rem;
+  color: #5c5470;
+}
+
+.text1 {
+  padding-left: 2.8rem;
+  padding-right: 4.2rem;
+  border-right: 1px solid #352f44;
+}
+
+.text2 {
+  padding-left: 2.8rem;
+  padding-right: 6.2rem;
+  border-right: 1px solid #352f44;
+}
+
+.text3 {
+  padding-left: 2.7rem;
+}
+
+.container--2-bar {
+  padding-top: 1.4rem;
+  padding-bottom: 1.6rem;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  display: grid;
+}
+
+.container--2-fullbar {
+  height: 1rem;
+  background-color: #adb5bd;
+  border-radius: 60px;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.container--2-purplebar {
+  height: 1rem;
+  width: 0;
+  border-radius: 60px;
+  background-color: #5c5470;
+  grid-column: 1;
+  grid-row: 1;
+  box-shadow: 3px 3px 10px #5c5470;
+}
+
+.container--3 {
+  background-color: #dbd8e3;
+  border-radius: 8px;
+  box-shadow: 0px 0px 3px #2a24387e;
+  font-family: "Commissioner", sans-serif;
+  margin-top: 2rem;
+  padding-top: 2.2rem;
+  padding-bottom: 1rem;
+  padding-right: 2.3rem;
+  padding-left: 2.3rem;
+  margin-bottom: 2rem;
+}
+
+.container--3-text h1 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-bottom: 1.8rem;
+  color: #2a2438;
+}
+
+.container--3-text blockquote {
+  font-weight: 400;
+  font-size: 0.97rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.container--3-text blockquote p {
+  margin-top: 1.2rem;
+}
+
+.container--3-block {
+  margin-bottom: 1.85rem;
+  padding: 2.1rem 2rem;
+  box-shadow: 0px 0px 3px #2a24387e;
+  border-radius: 6px;
+}
+
+.block-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.block-header h1 {
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+
+.block-header h2 {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #5c5470;
+}
+
+.block-text {
+  font-weight: 400;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  padding-bottom: 0.9rem;
+}
+
+.block-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.block-bottom h1 {
+  font-size: 1.8rem;
+  color: #2a2438;
+}
+
+.block-bottom span {
+  font-size: 1rem;
+  color: #5c5470;
+  align-items: flex-start;
+  padding: 0.5rem;
+}
+
+.bottom-selected-button,
+#not-hovered-button {
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  color: #dbd8e3;
+  padding: 0.9rem 1.25rem;
+  background-color: #5c5470;
+  border-radius: 50px;
+  transition: all 0.4s ease-in-out;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.bottom-selected-button:hover {
+  background-color: #e7eaf6;
+  color: #5c5470;
+}
+
+.bottom-selected-button:disabled {
+  background-color: #5c5470;
+  color: #dbd8e3;
+}
+
+.block-deactive {
+  opacity: 0.4;
+}
+
+.hidden {
+  display: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 1000;
+}
+
+.error-message {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #5c5470;
+  width: 8rem;
+  margin-top: 4.5rem;
+  margin-left: 4.5rem;
+}
+
+#menu-mobile-button {
+  display: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: fixed;
+
+  top: 3% !important;
+  right: 10% !important;
+}
+
+#close-menu {
+  display: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: fixed;
+
+  top: 3% !important;
+  right: 8% !important;
+  transform: scale(1.3);
+  z-index: 10000;
+}
+
+.mobile-navigation {
+  position: fixed;
+  top: 6%;
+  left: 0;
+  width: 80%;
+  height: 30vh;
+  background-color: #dbd8e3;
+  transform: translateX(-120%);
+
+  transition: all 0.5s;
+  pointer-events: none;
+  visibility: hidden;
+  display: none;
+
+  margin-left: 2.55rem;
+  z-index: 10000;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #352f44;
+  margin-top: 3rem;
+}
+
+.nav-list li {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #5c547038;
+  font-weight: 500;
+  font-size: 1.15rem;
+}
+
+.nav-list li:hover {
+  color: #5c5470;
+}
+
+.mobile-buttons {
+  display: none;
+}
+
+.mobile-navigation-active {
+  pointer-events: auto;
+  visibility: visible;
+  transform: translateX(0);
+}

@@ -1,0 +1,1048 @@
+@media (max-width: 1380px) {
+  .containers {
+    width: 38%;
+  }
+
+  .header-img {
+    width: 100vw;
+    height: 16rem;
+  }
+
+  .containers {
+    margin-top: 11rem;
+  }
+
+  .mastercraft-logo {
+    transform: scale(0.9);
+    left: 48% !important;
+  }
+
+  .navbar-elem:visited,
+  .navbar-elem:link {
+    font-size: 0.95rem;
+  }
+
+  .container--1-header h1 {
+    font-size: 1.3rem;
+  }
+
+  .container--1-header {
+    padding: 1.4rem 2.5rem 1.4rem 2rem !important;
+  }
+
+  .container--1-header p {
+    font-size: 0.75rem;
+  }
+
+  .container--2-text-content h1 {
+    font-size: 1.4rem;
+  }
+
+  .container--2-text-content p {
+    font-size: 0.7rem;
+  }
+
+  .btn1 {
+    padding: 0.8rem 1.1rem;
+    font-size: 0.9rem;
+  }
+
+  .container--1-buttons {
+    justify-content: center;
+    gap: 7rem;
+  }
+
+  .container--1-button2 {
+    height: 2.8rem;
+    gap: 0.6rem;
+  }
+
+  .container--1-button2 a {
+    font-size: 0.9rem;
+  }
+
+  .container--1-button2 svg {
+    transform: translateX(-6px);
+    transform: scale(0.82);
+  }
+
+  .container--2 {
+    padding: 1.5rem 0;
+  }
+
+  .text1 {
+    padding-right: 1.5rem;
+  }
+
+  .text2 {
+    padding-left: 1.7rem;
+    padding-right: 2.7rem;
+  }
+
+  .container--3 {
+    padding-bottom: 0.7rem;
+  }
+
+  .container--3-text h1 {
+    font-size: 1.3rem;
+    padding-bottom: 1.4rem;
+  }
+
+  .container--3-text blockquote {
+    font-size: 0.87rem;
+    padding-bottom: 1.2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .container--3-block {
+    padding: 1.6rem 1.2rem;
+  }
+
+  .block-header h1,
+  .block-deactive h1 {
+    font-size: 0.98rem;
+  }
+
+  .block-header h2,
+  .block-deactive h2 {
+    font-size: 0.86rem;
+  }
+
+  .block-text {
+    font-size: 0.84rem;
+    padding-bottom: 0.55rem;
+  }
+
+  .block-bottom h1 {
+    font-size: 1.4rem;
+  }
+
+  .bottom-selected-button,
+  #not-hovered-button {
+    padding: 0.7rem 0.9rem;
+    font-size: 0.8rem;
+  }
+
+  .form-modal {
+    /* height: 30%; */
+    height: 50vh;
+  }
+
+  .form-content {
+    top: -50% !important;
+    /* height: 80vh;a */
+  }
+
+  .form-header h1 {
+    font-size: 1.2rem;
+    padding-bottom: 0.4rem;
+  }
+
+  .form-header p {
+    font-size: 1rem;
+    padding-bottom: 0.8rem;
+  }
+
+  .form-close-btn {
+    top: 2%;
+  }
+
+  .form-block-header {
+    padding-bottom: 0.7rem;
+  }
+
+  .form-block {
+    margin-bottom: 1rem;
+  }
+
+  .form-block input[type="radio"] {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .form-block-content {
+    padding: 1.4rem 0.5rem;
+  }
+
+  .first-h1 {
+    font-size: 1.05rem;
+  }
+
+  .second-h1 {
+    font-size: 1rem;
+  }
+
+  .form-block-header-right-part .right-part-number {
+    font-size: 1.1rem;
+  }
+
+  .form-block-header-right-part .right-part-label {
+    font-size: 1.1rem;
+  }
+
+  .form-block-text-content #block1,
+  .form-block-text-content #block2,
+  .form-block-text-content #block3 {
+    font-size: 1rem;
+  }
+
+  .form-block-insert.pledge,
+  .form-block-insert.bamboo,
+  .form-block-insert.black-edition {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-right: 0.2rem;
+    padding-left: 1rem;
+  }
+
+  .reward-input#input2,
+  .reward-input#input3 {
+    width: 5.2rem;
+    height: 1.8rem;
+  }
+
+  .continue-button {
+    height: 1.8rem !important;
+    padding: 0 0.15rem;
+  }
+
+  .form-block-insert-text {
+    font-size: 0.2rem !important;
+  }
+
+  #pledge-label {
+    font-size: 1rem;
+  }
+
+  #dollar-sign {
+    margin-right: 10.2rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .error-message.above75,
+  .error-message.above25 {
+    margin-bottom: 4.5rem;
+    margin-left: 8rem;
+    font-size: 0.8rem;
+  }
+
+  .thank-you-content {
+    height: 42vh !important;
+    width: 36% !important;
+    padding: 0.9rem 1rem;
+  }
+
+  .thank-you-svg svg {
+    transform: scale(0.9);
+  }
+
+  .thank-you-text h1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .thank-you-text p {
+    padding-bottom: 1.5rem;
+    font-size: 1.25rem;
+  }
+
+  .got-it-button {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    padding: 0.8rem 2.6rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .containers {
+    margin-top: 10rem;
+    width: 46%;
+  }
+
+  .container--1 {
+    padding-bottom: 1rem;
+  }
+
+  .mastercraft-logo {
+    transform: scale(0.75);
+    top: 52% !important;
+    left: 47.2% !important;
+  }
+
+  .container--1-header {
+    padding: 1.3rem 0.5rem;
+  }
+
+  .container--1-header h1 {
+    font-size: 1.12rem;
+    padding-bottom: 0.2rem;
+  }
+
+  .container--1-header p {
+    font-size: 0.7rem;
+  }
+
+  .container--2 {
+    margin-top: 1.5rem;
+  }
+
+  .container--2-text {
+    padding: 0 1.3rem;
+  }
+
+  .container--2-text-content h1 {
+    font-size: 1.35rem;
+  }
+
+  .container--2-text-content p {
+    font-size: 0.9rem;
+  }
+
+  .container--1-buttons {
+    gap: 4.7rem;
+  }
+
+  .btn1 {
+    font-size: 0.65rem;
+    width: 7.2rem;
+    padding: 0.75rem 0;
+  }
+
+  .container--1-button2 {
+    height: 2.5rem;
+    width: 6.9rem;
+    gap: 0;
+    padding-right: 0;
+  }
+
+  .container--1-button2 a {
+    font-size: 0.7rem;
+    padding: 0.8rem 0.7rem;
+    right: -5%;
+  }
+
+  #bookmark-svg {
+    transform: scale(0.7);
+  }
+
+  .container--2 {
+    padding: 0.6rem 0;
+  }
+
+  .text1 {
+    padding-left: 1.5rem;
+    padding-right: 1.3rem;
+  }
+
+  .text2 {
+    padding-left: 1.5rem;
+    padding-right: 2.1rem;
+  }
+
+  .text3 {
+    padding-left: 1.5rem;
+  }
+
+  .container--3 {
+    padding-bottom: 0.3rem;
+    padding-top: 1.3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .container--3-block {
+    margin-bottom: 1.5rem;
+    padding: 1.2rem 1.4rem;
+  }
+
+  .container--3-text h1 {
+    font-size: 1.1rem;
+    padding-bottom: 1.4rem;
+  }
+
+  .container--3-text blockquote {
+    font-size: 0.75rem;
+    padding-bottom: 0.7rem;
+    margin-bottom: 0rem;
+  }
+
+  .block-header h1,
+  .block-deactive h1 {
+    font-size: 0.85rem;
+    padding-bottom: 0rem;
+  }
+
+  .block-header h2,
+  .block-deactive h2 {
+    font-size: 0.76rem;
+  }
+
+  .block-text {
+    font-size: 0.73rem;
+    padding-bottom: 0.65rem;
+    line-height: 1.5;
+  }
+
+  .block-bottom h1 {
+    font-size: 1.1rem;
+  }
+
+  .bottom-selected-button,
+  #not-hovered-button {
+    padding: 0.45rem 0.7rem;
+    font-size: 0.65rem;
+  }
+
+  .form-modal {
+    /* height: 30%; */
+    height: 35vh;
+  }
+
+  .form-content {
+    width: 60vw;
+    top: -35% !important;
+  }
+
+  .form-header h1 {
+    font-size: 1.1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .form-header p {
+    font-size: 0.9rem;
+    padding-bottom: 1rem;
+  }
+
+  .form-block-header {
+    padding-bottom: 0.4rem;
+  }
+
+  .form-block input[type="radio"] {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+
+  .form-block-content {
+    padding: 0.8rem 0.5rem;
+  }
+
+  .first-h1 {
+    font-size: 0.9rem;
+  }
+
+  .second-h1 {
+    font-size: 0.85rem;
+  }
+
+  .form-block-header-right-part .right-part-number {
+    font-size: 1rem;
+  }
+
+  .form-block-header-right-part .right-part-label {
+    font-size: 1rem;
+  }
+
+  .form-block-text-content #block1,
+  .form-block-text-content #block2,
+  .form-block-text-content #block3 {
+    font-size: 0.94rem;
+    padding: 0.4rem 0;
+  }
+
+  .form-block-insert.pledge,
+  .form-block-insert.bamboo,
+  .form-block-insert.black-edition {
+    padding-top: 0.2rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.18rem;
+    padding-left: 0.9rem;
+  }
+
+  .reward-input#input2,
+  .reward-input#input3 {
+    width: 4.5rem;
+    height: 1.7rem;
+  }
+
+  .continue-button {
+    height: 1.7rem !important;
+    padding: 0 0.1rem;
+    font-size: 0.75rem;
+  }
+
+  #pledge-label {
+    font-size: 0.92rem;
+  }
+
+  #dollar-sign {
+    margin-right: 9.5rem;
+    margin-bottom: 0.2rem;
+    font-size: 0.8rem;
+  }
+
+  .error-message.above75,
+  .error-message.above25 {
+    margin-bottom: 4.5rem;
+    margin-left: 10rem;
+    font-size: 0.75rem;
+  }
+
+  .thank-you-content {
+    height: 41vh !important;
+    width: 38% !important;
+    padding: 0.8rem 0.5rem;
+  }
+
+  .thank-you-svg svg {
+    transform: scale(0.75);
+  }
+
+  .thank-you-text h1 {
+    padding-top: 0rem;
+    padding-bottom: 0.55rem;
+    font-size: 1.4rem;
+  }
+
+  .thank-you-text p {
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+
+  .got-it-button {
+    font-size: 1.1rem;
+    padding: 0.6rem 2.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .containers {
+    margin-top: 12rem;
+    width: 55%;
+  }
+
+  .container--1 {
+    padding-bottom: 0.8rem;
+  }
+
+  .container--1-header h1 {
+    font-size: 1.2rem;
+  }
+
+  .container--1-header p {
+    font-size: 0.9rem;
+  }
+
+  .mastercraft-logo {
+    transform: scale(0.72);
+    top: 64% !important;
+    left: 47% !important;
+  }
+
+  .container--2-text {
+    padding: 0;
+  }
+
+  .text1 {
+    padding-left: 1.5rem !important;
+    padding-right: 0 !important;
+  }
+
+  .text2 {
+    padding-left: 1.1rem;
+    padding-right: 0;
+  }
+
+  .text3 {
+    padding-left: 1.1rem;
+    padding-right: 0;
+  }
+
+  .container--2-text-content h1 {
+    font-size: 1.22rem;
+  }
+
+  .container--2-text-content p {
+    font-size: 0.8rem;
+    /* background-color: red; */
+    width: 8rem;
+  }
+
+  .text1 {
+    padding-left: 2.5rem;
+    padding-right: 1.3rem;
+  }
+
+  .container--3-text h1 {
+    font-size: 1rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .container--3-text blockquote {
+    font-size: 0.73rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .container--3-block {
+    padding: 1.1rem 1rem;
+  }
+
+  .block-header h1,
+  .block-deactive h1 {
+    font-size: 0.83rem;
+  }
+
+  .block-header h2,
+  .block-deactive h2 {
+    font-size: 0.76rem;
+  }
+
+  .block-text {
+    font-size: 0.74rem;
+    padding-bottom: 0.55rem;
+  }
+
+  .block-bottom h1 {
+    font-size: 1rem;
+  }
+
+  .block-bottom span {
+    font-size: 0.9rem;
+  }
+
+  .bottom-selected-button,
+  #not-hovered-button {
+    padding: 0.45rem 0.8rem;
+    font-size: 0.7rem;
+  }
+
+  .form-modal {
+    /* height: 30%; */
+    height: 40vh !important;
+  }
+
+  .form-content {
+    top: -40% !important;
+    width: 70% !important;
+  }
+
+  .thank-you-content {
+    height: 40vh !important;
+    width: 52% !important;
+    padding: 0.9rem 1rem !important;
+  }
+
+  .form-block-insert-buttons input[type="number"] {
+    font-size: 0.75rem;
+  }
+
+  .above25,
+  .above75 {
+    font-size: 0.7rem !important;
+    margin-left: 11rem !important;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .mobile-buttons {
+    display: block;
+  }
+
+  .header-img {
+    background-image: url(/images/image-hero-mobile.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 126vw !important;
+  }
+
+  .logo {
+    top: 8% !important;
+    left: 5% !important;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  #menu-mobile-button {
+    display: block;
+    position: absolute;
+    top: 10% !important;
+    right: 10% !important;
+    transform: scale(1.3);
+  }
+
+  .containers {
+    width: 90vw !important;
+    /* margin-left: 6rem; */
+    transform: translateX(12%) !important;
+  }
+
+  .mastercraft-logo {
+    top: 64% !important;
+    left: 43% !important;
+    transform: scale(0.65);
+  }
+
+  .container--1-header {
+    padding: 1rem 0.4rem;
+  }
+
+  .container--1-header h1 {
+    font-size: 1.1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .container--1-header p {
+    font-size: 0.8rem;
+    padding: 0 1.2rem;
+  }
+
+  .text1,
+  .text2,
+  .text3 {
+    width: 9rem;
+  }
+
+  .text2 {
+    padding-right: 0 !important;
+  }
+
+  .container--2-text-content h1 {
+    font-size: 1.2rem;
+  }
+
+  .container--2-text-content p {
+    font-size: 0.76rem;
+  }
+
+  .container--2-bar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-right: 0.5rem;
+  }
+
+  .form-modal {
+  }
+
+  .form-close-btn {
+    top: 1.5%;
+  }
+
+  .form-content {
+    top: -27% !important;
+    left: 15.5% !important;
+    width: 90vw !important;
+    padding: 0.5rem 1.5rem;
+  }
+
+  .form-header h1 {
+    font-size: 0.94rem;
+    padding-bottom: 0.35rem;
+  }
+
+  .form-header p {
+    padding-right: 0.5rem;
+    font-size: 0.7rem;
+  }
+
+  .form-block-header {
+    padding-bottom: 0.35rem;
+  }
+
+  .first-h1 {
+    font-size: 0.76rem;
+  }
+
+  .second-h1 {
+    font-size: 0.74rem;
+  }
+
+  .form-block-text-content #block1,
+  .form-block-text-content #block2,
+  .form-block-text-content #block3 {
+    font-size: 0.7rem;
+  }
+
+  .form-block-insert.pledge,
+  .form-block-insert.bamboo,
+  .form-block-insert.black-edition {
+    padding-top: 0.18rem;
+    padding-bottom: 0.4rem;
+    padding-right: 0.1rem;
+    padding-left: 0.9rem;
+  }
+
+  .reward-input#input2,
+  .reward-input#input3 {
+    width: 4.2rem;
+    height: 1.55rem;
+    font-size: 0.7rem;
+  }
+
+  .continue-button {
+    height: 1.55rem !important;
+    padding: 0 0.09rem;
+    font-size: 0.75rem;
+  }
+
+  #pledge-label {
+    font-size: 0.65rem;
+  }
+
+  .right-part-number,
+  .right-part-label {
+    font-size: 0.85rem !important;
+  }
+
+  .form-block-insert {
+    padding-right: 0.8rem;
+    padding-bottom: 1rem !important;
+  }
+
+  .above25,
+  .above75 {
+    margin-bottom: 1.5rem !important;
+    margin-right: 16rem !important;
+    font-size: 0.65rem;
+  }
+
+  .form-block-insert-buttons {
+    gap: 0.7rem;
+  }
+
+  .thank-you-content {
+    height: 42vh !important;
+    width: 72% !important;
+    padding: 1rem 1rem;
+    top: 18% !important;
+    left: 14.9% !important;
+  }
+
+  .thank-you-content h1 {
+    padding-top: 1rem !important;
+  }
+
+  .thank-you-svg svg {
+    transform: scale(0.9);
+  }
+
+  #menu-mobile-button {
+    display: block;
+    position: absolute;
+    top: 10.5%;
+    right: 8%;
+  }
+
+  .mobile-navigation {
+    pointer-events: auto;
+    visibility: visible;
+    display: block;
+  }
+}
+
+@media (max-width: 375px) {
+  .mastercraft-logo {
+    position: absolute;
+    top: 63.5% !important;
+    left: 42.5% !important;
+    z-index: 100;
+  }
+
+  .container--1-header h1 {
+    font-size: 1rem;
+  }
+
+  .container--1-header p {
+    font-size: 0.8rem;
+  }
+
+  .text1 {
+    padding-left: 1rem;
+  }
+
+  .text1 {
+    padding-right: 0;
+  }
+  .text2 {
+    width: 7rem;
+    padding-right: 0;
+  }
+  .container--2-bar {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  .first-h1 {
+    font-size: 0.65rem;
+  }
+
+  .second-h1 {
+    font-size: 0.7rem;
+  }
+
+  .reward-input#input2,
+  .reward-input#input3 {
+    width: 4rem;
+    height: 1.5rem;
+    font-size: 0.6rem;
+  }
+
+  .continue-button {
+    height: 1.5rem !important;
+    padding: 0 0.02rem;
+    font-size: 0.75rem;
+  }
+
+  .form-modal {
+    margin-right: 1rem;
+  }
+
+  .form-content {
+    padding-top: 1.5rem !important;
+    top: -40%;
+    width: 95vw !important;
+    padding: 0.5rem 1.5rem;
+    overflow-y: scroll;
+  }
+
+  .form-block-insert.pledge,
+  .form-block-insert.bamboo,
+  .form-block-insert.black-edition {
+    padding-top: 0.18rem;
+    padding-bottom: 0.4rem;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .form-block-insert-buttons {
+    gap: 0.5rem;
+    padding-left: 2rem;
+  }
+
+  .continue-button {
+    height: 1.55rem !important;
+    padding: 0 0.09rem;
+    font-size: 0.75rem;
+  }
+
+  .form-block-insert-buttons .continue-button {
+    padding: 0 0.75rem;
+  }
+
+  #pledge-label {
+    margin-right: 1.4rem !important;
+  }
+
+  #pledge-continue {
+    margin-top: 0.6rem !important;
+    margin-right: -4rem !important;
+  }
+
+  #dollar-sign {
+    margin-right: 8rem;
+  }
+
+  .error-message.above75,
+  .error-message.above25 {
+    margin-right: 10rem;
+    font-size: 0.6rem;
+  }
+
+  .thank-you-content {
+    height: 44.5vh !important;
+    width: 72% !important;
+    padding: 0.8rem 1rem;
+    top: 24%;
+    left: 14.9%;
+  }
+
+  .above25,
+  .above75 {
+    margin-left: 13.2rem !important;
+    font-size: 0.6rem !important;
+  }
+
+  .got-it-button {
+    margin-top: 1rem !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .header-img {
+    width: 150vw !important;
+  }
+
+  .containers {
+    width: 100vw !important;
+    left: 13% !important;
+  }
+  .mobile-navigation {
+    margin-left: 1.9rem !important;
+  }
+
+  .mastercraft-logo {
+    top: 63% !important;
+    left: 45.3% !important;
+  }
+
+  .container--1-header h1 {
+    font-size: 0.9rem;
+  }
+
+  .container--1-header {
+    font-size: 0.7rem;
+  }
+
+  .container--2-text-content {
+    padding: 0 0.4rem;
+  }
+
+  .container--2-text-content h1 {
+    font-size: 0.9rem;
+  }
+
+  .container--2-text-content p {
+    font-size: 0.55rem;
+  }
+
+  .form-content {
+    top: -15% !important;
+    width: 110vw !important;
+  }
+
+  .text1 {
+    padding-left: 1.4rem !important;
+  }
+
+  .text2 {
+    padding-left: 0.7rem !important;
+  }
+
+  .text3 {
+    padding-left: 0.7rem !important;
+  }
+  #pledge-continue {
+    margin-right: -1.8rem !important;
+  }
+
+  #pledge-label {
+    font-size: 0.55rem;
+  }
+
+  .thank-you-content {
+    height: 34.5vh;
+    width: 75%;
+    padding: 0.5rem 1rem;
+    top: 24%;
+    left: 14.9%;
+  }
+}

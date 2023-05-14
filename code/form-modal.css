@@ -1,0 +1,241 @@
+/* font-family: "Commissioner", sans-serif; */
+/* 400,500,700 */
+/* Font size: 16px */
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Commissioner", sans-serif;
+}
+
+.form-modal {
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.form-content {
+  width: 47%;
+  position: fixed;
+  padding: 0.8rem 2rem;
+  transform: translateY(57%);
+  background-color: #dbd8e3;
+  z-index: 1002;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px #dbd8e3;
+}
+
+.form-close-btn {
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.form-block-content {
+  display: grid;
+  grid-template-columns: 0.15fr 2.2fr;
+}
+
+.form-header h1 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #2a2438;
+  padding-bottom: 0.4rem;
+}
+
+.form-header p {
+  font-weight: 400;
+  font-size: 0.87rem;
+  color: #5c5470;
+  padding-bottom: 0.8rem;
+}
+
+.form-block-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.form-block {
+  margin-bottom: 1.5rem;
+  border: 1px solid #2a243844;
+  border-radius: 6px;
+}
+
+.form-block input[type="radio"] {
+  width: 1.4rem;
+  height: 1.4rem;
+  background-color: #5c5470;
+  accent-color: #5c5470;
+}
+
+.form-block-content {
+  padding: 1rem 0.5rem;
+}
+
+.form-block-header-left-part {
+  font-weight: 700;
+  font-size: 0.68rem;
+  color: #352f44;
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+}
+.first-h1 {
+  transition: all 0.2s ease-in-out;
+}
+
+.first-h1:hover {
+  color: #5c5470;
+}
+
+.second-h1 {
+  color: #5c5470;
+}
+
+button {
+  cursor: pointer;
+}
+
+.form-block-header-right-part {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-weight: 700;
+}
+
+.form-block-header-right-part .right-part-number {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #352f44;
+}
+
+.form-block-header-right-part .right-part-label {
+  font-weight: 400;
+  color: #5c5470;
+}
+
+.form-block-text-content p {
+  font-weight: 400;
+  padding-right: 2rem;
+  font-size: 0.9rem;
+  color: #5c5470;
+  line-height: 1.4;
+}
+
+.opacity {
+  opacity: 0.4;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.block-clicked {
+  border: 2px solid #5c5470;
+}
+
+.form-block-insert {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px -1.4px 0 #2a24382f;
+  padding-top: 1.1rem;
+  padding-bottom: 1.3rem;
+  padding-right: 1.7rem;
+  padding-left: 1.7rem;
+  font-family: "Commissioner", sans-serif;
+}
+
+.form-block-insert-text label {
+  font-weight: 400;
+  font-size: 0.95rem;
+  color: #5c5470;
+}
+
+.form-block-insert-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 5.3rem;
+  height: 2.5rem;
+  border-radius: 30px;
+  margin-right: 4.4rem;
+  /* padding-bottom: 1rem; */
+}
+
+.form-block-insert-buttons input[type="number"] {
+  text-align: center;
+  font-size: 1rem;
+  width: 6.2rem;
+  height: 2.5rem;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  position: relative;
+  z-index: 130;
+}
+
+.form-block-insert-buttons input[type="number"]:focus {
+  border: 2px solid #5c5470;
+}
+
+.form-block-insert-buttons #pledge-continue {
+  margin-left: 7rem;
+}
+
+.form-block-insert-buttons .continue-button {
+  text-decoration: none;
+  font-weight: 500;
+  color: #dbd8e3;
+  /* background-color: #fff; */
+  color: #5c5470;
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+  padding: 0 1.2rem;
+  border-radius: 30px;
+  transition: 0.3s all ease-in-out;
+  outline: none;
+  border: none;
+}
+
+.form-block-insert-buttons .continue-button:hover {
+  background-color: #5c5470;
+  color: #dbd8e3;
+}
+
+.form-block-insert-buttons span {
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-style: italic;
+  position: absolute;
+  margin-right: 11.5rem;
+  color: #5c5470;
+  z-index: 140;
+}
+
+.above25,
+.above75 {
+  margin-bottom: 4.5rem;
+  margin-right: 27.5rem !important;
+  color: #d62828 !important;
+}
+
+.form-block-insert-buttons input[type="number"]::-webkit-inner-spin-button,
+.form-block-insert-buttons input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  display: none;
+}
+
+.dollar_input_clicked {
+  border: 2px solid #5c5470;
+}
